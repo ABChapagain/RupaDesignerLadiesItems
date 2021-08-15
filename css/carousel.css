@@ -1,0 +1,16 @@
+.carousel {
+    background: url(/img/cover.png) no-repeat left center/cover;
+    height: 75vh;
+}
+
+@media screen and (max-width: 768px) {
+    .carousel {
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .carousel {
+        height: 30vh;
+    }
+}
