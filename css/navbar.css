@@ -1,5 +1,5 @@
 .top-nav {
-    background: black;
+    background: #4E50BE;
     padding: 5px 1rem;
     display: flex;
     justify-content: space-between;
@@ -26,11 +26,12 @@
     position: sticky;
     top: 0;
     z-index: 10;
+    background: white;
+    /* box-shadow: 0 3px 1rem rgba(0,0,0,.1); */
 }
 
-.scrolling-active {
-    background: white;
-    box-shadow: 0 3px 1rem rgba(0,0,0,.1);
+.navbar .container {
+    padding: 0 !important;
 }
 
 .main-nav {
@@ -57,7 +58,7 @@
 }
 
 .main-nav .nav-links li a.active {
-    color: black;
+    color: #6366F1;
 }
 
 .nav-menu {

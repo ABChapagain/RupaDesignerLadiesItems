@@ -1,0 +1,36 @@
+
+.grid-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 3rem;
+}
+
+.box {
+    border-radius: 5px;
+    display: flex;
+}
+
+.box-icon svg {
+    background: #6366F1;
+    fill: white;
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+
+.box-content .box-heading {
+    padding-bottom: .7rem;
+}
+
+.box-brief {
+    color: #333;
+}
+
+@media screen and (max-width: 768px) {
+    .grid-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
