@@ -1,16 +1,18 @@
 .carousel {
-    background: url(/img/cover.jpg) no-repeat left center/cover;
-    height: 75vh;
+    /* background: url(/img/cover.jpg) no-repeat left center/cover; */
+    /* height: 75vh; */
+    width: 100%;
+    object-position: 0;
+    object-fit: cover;
 }
 
 @media screen and (max-width: 768px) {
     .carousel {
-        height: 50vh;
+    height: 40vh;
     }
 }
-
 @media screen and (max-width: 500px) {
     .carousel {
-        height: 30vh;
+    height: 30vh;
     }
 }
