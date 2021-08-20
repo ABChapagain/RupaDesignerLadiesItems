@@ -6,6 +6,7 @@
 @import url(how-it-works.css);
 @import url(our-team.css);
 @import url(testimonials.css);
+@import url(faq.css);
 
 * {
     margin: 0;
@@ -31,7 +32,8 @@
 #about-us,
 #how-it-works,
 #our-team,
-#testimonial {
+#testimonial,
+#faq {
     margin: 2rem auto;
 }
 
@@ -83,4 +85,70 @@ a {
 
 .read-more a:hover {
     background: #4E50BE;
+}
+
+.box-fluid,
+.box {
+    background: #fff;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 100%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    /* box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); */
+    /* box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); */
+    /* box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); */
+    /* box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22); */
+}
+
+.box-fluid {
+    border-radius: 0;
+}
+
+.box-fluid:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.box-fluid:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+@media screen and (max-width: 968px) {
+    .box-fluid:first-child {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+
+    .box-fluid:nth-child(2) {
+        border-top-right-radius: 10px;
+    }
+
+    .box-fluid:nth-child(3) {
+        border-bottom-left-radius: 10px;
+    }
+
+    .box-fluid:last-child {
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .box-fluid:first-child {
+        border-top-right-radius: 10px;
+    }
+
+    .box-fluid:nth-child(2) {
+        border-top-right-radius: 0px;
+    }
+
+    .box-fluid:nth-child(3) {
+        border-bottom-left-radius: 0px;
+    }
+
+    .box-fluid:last-child {
+        border-bottom-left-radius: 10px;
+    }
+    
 }

@@ -1,0 +1,42 @@
+.faq-box {
+    cursor: pointer;
+    padding: 0 !important;
+}
+
+.faq-box:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all ease-in 0.3s;
+    padding: 1rem;
+}
+
+.faq-answer,
+.faq-question i {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.faq-box .faq-question .fa-angle-up,
+.faq-box.active .faq-question .fa-angle-down {
+    display: none;
+}
+
+.faq-box.active .faq-question .fa-angle-up {
+    display: block;
+}
+
+.faq-box .faq-answer {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    /* transition: 0.5s; */
+}
+
+.faq-box.active .faq-answer {
+    height: fit-content;
+    padding:0 1rem 1rem;
+}

@@ -1,16 +1,19 @@
 .our-team {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 2rem;
-    grid-row-gap: 3rem;
+    grid-gap: 2rem;
     justify-items: center;
     text-align: initial;
 }
 
 .team {
+    width: 100%;
     display: flex;
     gap: 1rem;
     align-items: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    padding: 1rem;
+    border-radius: 10px;
 }
 
 .team-img {
@@ -71,7 +74,7 @@
     to {opacity: 1}
   }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 968px) {
     .our-team {
         grid-template-columns: repeat(2, 1fr);
     }
