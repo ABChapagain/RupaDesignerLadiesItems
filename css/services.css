@@ -8,6 +8,7 @@
 
 .service-box {
     display: flex;
+    gap: 1rem;
 }
 
 .box-content .box-heading {

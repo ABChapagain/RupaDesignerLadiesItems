@@ -1,32 +1,34 @@
-.works {
+.feature {
+    height: 10rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     text-align: center;
     justify-items: center;
 }
 
-.works-heading {
-    padding: .5rem 0;
+.feature-box {
+    display: flex;
+    align-items: center;
+    text-align: initial;
+    justify-content: space-around;
 }
 
-.works-brief {
-    color: #333;
-    line-height: 24px;
+.feature-brief {
+    color: #6366F1;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 @media screen and (max-width: 968px) {
     
-    .works {
+    .feature {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media screen and (max-width: 500px) {
     
-    .works {
+    .feature {
         grid-template-columns: 1fr;
     }
 }
-
-
-
