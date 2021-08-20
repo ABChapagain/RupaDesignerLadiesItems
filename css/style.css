@@ -8,12 +8,15 @@
 @import url(testimonials.css);
 @import url(faq.css);
 @import url(feature.css);
+@import url(contact-us.css);
+@import url(footer.css);
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
 }
 
 
@@ -35,7 +38,8 @@
 #our-team,
 #testimonial,
 #faq,
-#feature {
+#feature,
+#contact-us {
     margin: 2rem auto;
 }
 
@@ -65,8 +69,8 @@ a {
 .svg-icon {
     background: #6366F1;
     fill: white;
-    height: 60px;
-    width: 60px;
+    height: 55px;
+    width: 55px;
     padding: 10px;
     border-radius: 10px;
 }
@@ -152,4 +156,26 @@ a {
         border-bottom-left-radius: 10px;
     }
     
+}
+
+@media screen and (max-width: 350px) {
+
+    p,
+    a {
+        font-size: 0.9rem !important;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    h3,
+    h4 {
+        font-size: 1rem !important;
+    }
+
 }

@@ -1,5 +1,9 @@
+#feature {
+    position: relative;
+    margin-top: 10rem;
+}
+
 .feature {
-    height: 10rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     text-align: center;
@@ -8,6 +12,7 @@
 
 .feature-box {
     display: flex;
+    height: 7rem;
     align-items: center;
     text-align: initial;
     justify-content: space-around;
@@ -27,7 +32,10 @@
 }
 
 @media screen and (max-width: 500px) {
-    
+    .feature-box {
+        height: auto;
+    }
+
     .feature {
         grid-template-columns: 1fr;
     }
