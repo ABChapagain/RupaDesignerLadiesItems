@@ -27,7 +27,7 @@
     top: 0;
     z-index: 10;
     background: white;
-    /* box-shadow: 0 3px 1rem rgba(0,0,0,.1); */
+    box-shadow: 0 3px 1rem rgba(0,0,0,.1);
 }
 
 .navbar .container {
@@ -57,7 +57,7 @@
     color: #333;
 }
 
-.main-nav .nav-links li a.active {
+.main-nav .nav-links li a:hover {
     color: #6366F1;
 }
 
