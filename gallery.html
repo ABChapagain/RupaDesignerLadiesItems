@@ -1,68 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rupa Designer Ladies Items | Gallery</title>
+    <link rel="icon" href="img/title-icon.png" />
+    <script
+      src="https://kit.fontawesome.com/9e7a67dce0.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Rupa Designer Ladies Items | Gallery</title>
-  <link rel="icon" href="img/title-icon.png" />
-  <script src="https://kit.fontawesome.com/9e7a67dce0.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="css/style.css" />
-</head>
-
-<body>
-  <div class="top-nav">
-    <ul class="top-link">
-      <li>
-        <a href="https://facebook.com/RupaDesignerLadiesItems" target="_blank"><i class="fab fa-facebook"></i></a>
-      </li>
-      <li>
-        <a href="https://instagram.com/RupaDesignerLadiesItems" target="_blank"><i class="fab fa-instagram"></i></a>
-      </li>
-      <li>
-        <a href="https://tiktok.com/@rupamainali2021" target="_blank"><i class="fab fa-tiktok"></i></a>
-      </li>
-      <li>
-        <a href="https://wa.me/+9779817079815" target="_blank"><i class="fab fa-whatsapp"></i></a>
-      </li>
-    </ul>
-    <ul>
-      <li class="top-contact">
-        <a href="tel:+9779817079815" target="_blank">
-          <i class="fas fa-phone-alt"></i>
-          9817079815
-        </a>
-      </li>
-    </ul>
-  </div>
-
-  <nav class="navbar">
-    <div class="container">
-      <div class="main-nav">
-        <a class="logo" href="index.html">
-          <img src="img/Logo.png" height="60px" alt="" />
-        </a>
-        <button class="nav-menu">
-          <div class="menu-icon">
-            <span class="fas fa-bars"></span>
-          </div>
-          <div class="cancel-icon">
-            <span class="fas fa-times"></span>
-          </div>
-        </button>
-        <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a class="active" href="gallery.html">Gallery</a></li>
-          <li><a href="about-us.html">About Us</a></li>
-          <li><a href="contact-us.html">Contact Us</a></li>
-        </ul>
-      </div>
+  <body>
+    <div class="top-nav">
+      <ul class="top-link">
+        <li>
+          <a href="https://facebook.com/RupaDesignerLadiesItems" target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://instagram.com/RupaDesignerLadiesItems"
+            target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://tiktok.com/@rupamainali2021" target="_blank"
+            ><i class="fab fa-tiktok"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://wa.me/+9779817079815" target="_blank"
+            ><i class="fab fa-whatsapp"></i
+          ></a>
+        </li>
+      </ul>
+      <ul>
+        <li class="top-contact">
+          <a href="tel:+9779817079815" target="_blank">
+            <i class="fas fa-phone-alt"></i>
+            9817079815
+          </a>
+        </li>
+      </ul>
     </div>
-  </nav>
 
-  <!-- <div id="gallery">
+    <nav class="navbar">
+      <div class="container">
+        <div class="main-nav">
+          <a class="logo" href="index.html">
+            <img src="img/Logo.png" height="60px" alt="" />
+          </a>
+          <button class="nav-menu">
+            <div class="menu-icon">
+              <span class="fas fa-bars"></span>
+            </div>
+            <div class="cancel-icon">
+              <span class="fas fa-times"></span>
+            </div>
+          </button>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="gallery.html">Gallery</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- <div id="gallery">
     <div class="container">
       <div class="heading">
         <h1 class="l-heading">GALLERY</h1>
@@ -76,164 +91,256 @@
     </div>
   </div> -->
 
-  <div id="gallery">
-    <div class="container">
-      <div class="heading">
-        <h1 class="l-heading">GALLERY</h1>
-        <p class="l-brief">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, animi.</p>
-      </div>
-      <div class="galleries">
-        <ul class="gallery-lists">
-          <li class="list active" data-name="all">All</li>
-          <li class="list" data-name="lehenga">Lehenga</li>
-          <li class="list" data-name="sari">Sari</li>
-          <li class="list" data-name="blouse">Blouse</li>
-          <li class="list" data-name="gown">Gown</li>
-          <li class="list" data-name="kurtha">Kurtha</li>
-          <li class="list" data-name="babydress">Baby Dress</li>
-        </ul>
-        <div class="gallery">
-          <div data-name="lehenga" class="item-box"><a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"><img src="img/products/lehenga.jpg"></a></div>
-          <div data-name="sari" class="item-box"><a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"><img src="img/products/sari.jpg"></a></div>
-          <div data-name="babydress" class="item-box"><a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"><img src="img/products/babydress4.jpg"></a></div>
-          <div data-name="lehenga" class="item-box"><a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"><img src="img/products/lehenga1.jpg"></a></div>
-          <div data-name="blouse" class="item-box"><a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"><img src="img/products/blouse.jpg"></a></div>
-          <div data-name="lehenga" class="item-box"><a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"><img src="img/products/lehenga2.jpg"></a></div>
-          <div data-name="kurtha" class="item-box"><a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"><img src="img/products/kurtha1.jpg"></a></div>
-          <div data-name="sari" class="item-box"><a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"><img src="img/products/sari2.jpg"></a></div>
-          <div data-name="lehenga" class="item-box"><a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"><img src="img/products/lehenga3.jpg"></a></div>
-          <div data-name="gown" class="item-box"><a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"><img src="img/products/gown.jpg"></a></div>
-          <div data-name="lehenga" class="item-box"><a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"><img src="img/products/lehenga4.jpg"></a></div>
-          <div data-name="babydress" class="item-box"><a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"><img src="img/products/babydress.jpg"></a></div>
-          <div data-name="lehenga" class="item-box"><a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"><img src="img/products/lehenga5.jpg"></a></div>
-          <div data-name="blouse" class="item-box"><a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"><img src="img/products/blouse4.jpg"></a></div>
-          <div data-name="lehenga" class="item-box"><a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"><img src="img/products/lehenga6.jpg"></a></div>
-          <div data-name="babydress" class="item-box"><a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"><img src="img/products/babydress2.jpg"></a></div>
-          <div data-name="lehenga" class="item-box"><a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"><img src="img/products/lehenga7.jpg"></a></div>
-          <div data-name="blouse" class="item-box"><a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"><img src="img/products/blouse1.jpg"></a></div>
-          <div data-name="sari" class="item-box"><a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"><img src="img/products/sari1.jpg"></a></div>
-          <div data-name="gown" class="item-box"><a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"><img src="img/products/gown1.jpg"></a></div>
-          <div data-name="lehenga" class="item-box"><a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"><img src="img/products/lehenga8.jpg"></a></div>
-          <div data-name="babydress" class="item-box"><a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"><img src="img/products/babydress1.jpg"></a></div>
-          <div data-name="lehenga" class="item-box"><a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"><img src="img/products/lehenga9.jpg"></a></div>
-          <div data-name="blouse" class="item-box"><a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"><img src="img/products/blouse2.jpg"></a></div>
-          <div data-name="gown" class="item-box"><a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"><img src="img/products/gown2.jpg"></a></div>
-          <div data-name="lehenga" class="item-box"><a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"><img src="img/products/lehenga10.jpg"></a></div>
-          <div data-name="babydress" class="item-box"><a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"><img src="img/products/babydress3.jpg"></a></div>
-          <div data-name="blouse" class="item-box"><a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"><img src="img/products/blouse3.jpg"></a></div>
-          <div data-name="lehenga" class="item-box"><a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"><img src="img/products/lehenga11.jpg"></a></div>
-          <div data-name="sari" class="item-box"><a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"><img src="img/products/sari3.jpg"></a></div>
-          <div data-name="gown" class="item-box"><a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"><img src="img/products/gown3.jpg"></a></div>
-          <div data-name="kurtha" class="item-box"><a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"><img src="img/products/kurtha.jpg"></a></div>
-          <div data-name="lehenga" class="item-box"><a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"><img src="img/products/lehenga12.jpg"></a></div>
-          <div data-name="sari" class="item-box"><a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"><img src="img/products/sari4.jpg"></a></div>
+    <div id="gallery">
+      <div class="container">
+        <div class="heading">
+          <h1 class="l-heading">GALLERY</h1>
+          <p class="l-brief">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
+            animi.
+          </p>
         </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="contact-us">
-    <div class="container">
-      <div class="heading">
-        <h1 class="l-heading">Contact Us</h1>
-        <p class="l-brief">Send us a Message</p>
-      </div>
-      <div class="contact-us">
-        <div class="contact-content">
-          <h3 class="contact-heading">Contact Information</h3>
-          <p class="contact-brief">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate consequuntur,
-            optio modi iste reiciendis facere?</p>
-          <div class="contact-details">
-            <a target="_blank" href="tel:+9779817079815" class="contact-detail">
-              <i class="fa fa-phone"></i>
-              <p>+977 9817079815</p>
-            </a>
-            <a target="_blank" href="https://g.page/RupaDesigner?share" class="contact-detail">
-              <i class="fa fa-map-marker-alt"></i>
-              <p>Kanakai Municipality - 04 Jhapa</p>
-            </a>
-            <a target="_blank" href="mailto:rupadesignerladiesitems@gmail.com" class="contact-detail">
-              <i class="fa fa-envelope"></i>
-              <p>rupadesignerladiesitems@gmail.com</p>
-            </a>
+        <div class="galleries">
+          <ul class="gallery-lists">
+            <li class="list active" data-name="all">All</li>
+            <li class="list" data-name="lehenga">Lehenga</li>
+            <li class="list" data-name="sari">Sari</li>
+            <li class="list" data-name="blouse">Blouse</li>
+            <li class="list" data-name="gown">Gown</li>
+            <li class="list" data-name="kurtha">Kurtha</li>
+            <li class="list" data-name="babydress">Baby Dress</li>
+          </ul>
+          <div class="gallery">
+            <div data-name="lehenga" class="item-box">
+              <a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"
+                ><img src="img/products/lehenga.jpg"
+              /></a>
+            </div>
+            <div data-name="sari" class="item-box">
+              <a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"
+                ><img src="img/products/sari.jpg"
+              /></a>
+            </div>
+            <div data-name="babydress" class="item-box">
+              <a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"
+                ><img src="img/products/babydress4.jpg"
+              /></a>
+            </div>
+            <div data-name="lehenga" class="item-box">
+              <a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"
+                ><img src="img/products/lehenga1.jpg"
+              /></a>
+            </div>
+            <div data-name="blouse" class="item-box">
+              <a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"
+                ><img src="img/products/blouse.jpg"
+              /></a>
+            </div>
+            <div data-name="lehenga" class="item-box">
+              <a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"
+                ><img src="img/products/lehenga2.jpg"
+              /></a>
+            </div>
+            <div data-name="kurtha" class="item-box">
+              <a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"
+                ><img src="img/products/kurtha1.jpg"
+              /></a>
+            </div>
+            <div data-name="sari" class="item-box">
+              <a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"
+                ><img src="img/products/sari2.jpg"
+              /></a>
+            </div>
+            <div data-name="lehenga" class="item-box">
+              <a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"
+                ><img src="img/products/lehenga3.jpg"
+              /></a>
+            </div>
+            <div data-name="gown" class="item-box">
+              <a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"
+                ><img src="img/products/gown.jpg"
+              /></a>
+            </div>
+            <div data-name="lehenga" class="item-box">
+              <a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"
+                ><img src="img/products/lehenga4.jpg"
+              /></a>
+            </div>
+            <div data-name="babydress" class="item-box">
+              <a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"
+                ><img src="img/products/babydress.jpg"
+              /></a>
+            </div>
+            <div data-name="lehenga" class="item-box">
+              <a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"
+                ><img src="img/products/lehenga5.jpg"
+              /></a>
+            </div>
+            <div data-name="blouse" class="item-box">
+              <a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"
+                ><img src="img/products/blouse4.jpg"
+              /></a>
+            </div>
+            <div data-name="lehenga" class="item-box">
+              <a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"
+                ><img src="img/products/lehenga6.jpg"
+              /></a>
+            </div>
+            <div data-name="babydress" class="item-box">
+              <a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"
+                ><img src="img/products/babydress2.jpg"
+              /></a>
+            </div>
+            <div data-name="lehenga" class="item-box">
+              <a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"
+                ><img src="img/products/lehenga7.jpg"
+              /></a>
+            </div>
+            <div data-name="blouse" class="item-box">
+              <a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"
+                ><img src="img/products/blouse1.jpg"
+              /></a>
+            </div>
+            <div data-name="sari" class="item-box">
+              <a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"
+                ><img src="img/products/sari1.jpg"
+              /></a>
+            </div>
+            <div data-name="gown" class="item-box">
+              <a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"
+                ><img src="img/products/gown1.jpg"
+              /></a>
+            </div>
+            <div data-name="lehenga" class="item-box">
+              <a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"
+                ><img src="img/products/lehenga8.jpg"
+              /></a>
+            </div>
+            <div data-name="babydress" class="item-box">
+              <a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"
+                ><img src="img/products/babydress1.jpg"
+              /></a>
+            </div>
+            <div data-name="lehenga" class="item-box">
+              <a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"
+                ><img src="img/products/lehenga9.jpg"
+              /></a>
+            </div>
+            <div data-name="blouse" class="item-box">
+              <a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"
+                ><img src="img/products/blouse2.jpg"
+              /></a>
+            </div>
+            <div data-name="gown" class="item-box">
+              <a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"
+                ><img src="img/products/gown2.jpg"
+              /></a>
+            </div>
+            <div data-name="lehenga" class="item-box">
+              <a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"
+                ><img src="img/products/lehenga10.jpg"
+              /></a>
+            </div>
+            <div data-name="babydress" class="item-box">
+              <a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"
+                ><img src="img/products/babydress3.jpg"
+              /></a>
+            </div>
+            <div data-name="blouse" class="item-box">
+              <a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"
+                ><img src="img/products/blouse3.jpg"
+              /></a>
+            </div>
+            <div data-name="lehenga" class="item-box">
+              <a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"
+                ><img src="img/products/lehenga11.jpg"
+              /></a>
+            </div>
+            <div data-name="sari" class="item-box">
+              <a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"
+                ><img src="img/products/sari3.jpg"
+              /></a>
+            </div>
+            <div data-name="gown" class="item-box">
+              <a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"
+                ><img src="img/products/gown3.jpg"
+              /></a>
+            </div>
+            <div data-name="kurtha" class="item-box">
+              <a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"
+                ><img src="img/products/kurtha.jpg"
+              /></a>
+            </div>
+            <div data-name="lehenga" class="item-box">
+              <a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"
+                ><img src="img/products/lehenga12.jpg"
+              /></a>
+            </div>
+            <div data-name="sari" class="item-box">
+              <a href="https://www.facebook.com/RupaDesignerLadiesItems/photos/"
+                ><img src="img/products/sari4.jpg"
+              /></a>
+            </div>
           </div>
-          <div class="contact-social-media">
-            <a target="_blank" href="https://facebook.com/RupaDesignerLadiesItems"><i class="fab fa-facebook"></i></a>
-            <a target="_blank" href="https://instagram.com/RupaDesignerLadiesItems"><i class="fab fa-instagram"></i></a>
-            <a target="_blank" href="https://tiktok.com/@rupamainali2021"><i class="fab fa-tiktok"></i></a>
-            <a target="_blank" href="https://wa.me/+9779817079815"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="footer">
+      <div class="footer container">
+        <div class="links">
+          <ul class="useful-links">
+            <h3>Quick Links</h3>
+            <li><a href="/">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+          </ul>
+          <ul class="billing-links">
+            <h3>Useful Links</h3>
+            <li><a href="about-us.html">FAQ</a></li>
+            <li><a href="about-us.html">Our Team</a></li>
+            <li><a href="about-us.html">How It Works</a></li>
+            <li><a href="about-us.html">Testimonials</a></li>
+          </ul>
+          <ul class="social-links">
+            <h3>Social Links</h3>
+            <div>
+              <a href="https://facebook.com/RupaDesignerLadiesItems" target="_blank"><i class="fab fa-facebook"></i></a>
+              <a href="https://instagram.com/RupaDesignerLadiesItems" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://tiktok.com/@rupamainali2021" target="_blank"><i class="fab fa-tiktok"></i></a>
+              <a href="https://wa.me/+9779817079815" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+          </ul>
+        </div>
+        <div class="bottom-footer">
+          <p class="footer-copyright">&copy; 2021 Rupa Designer Ladies Items. Made with <span>&#10084;</span> by <a
+              href="https://achyutchapagain.com.np" target="_blank">ABChapagain</a></p>
+          <div class="payments">
+            <img src="img/esewa.png" alt="">
+            <img src="img/khalti.svg" alt="">
+            <img src="img/imepay.png" alt="">
+            <img src="img/fonepay.svg" alt="">
+            <img src="img/paypal.png" alt="">
           </div>
         </div>
-        <div class="contact-forms">
-          <h3 class="contact-heading">Send us a message</h3>
-          <form class="contact-form">
-            <div class="form-box">
-              <label for="firstname">First name</label>
-              <input type="text" id="firstname" required>
-            </div>
-            <div class="form-box">
-              <label for="lastname">Last name</label>
-              <input type="text" id="lastname" required>
-            </div>
-            <div class="form-box">
-              <label for="email">Email</label>
-              <input type="email" id="email" required>
-            </div>
-            <div class="form-box">
-              <label for="phone">Phone</label>
-              <input type="tel" id="phone" required>
-            </div>
-
-            <div class="form-box">
-              <label for="subject">Subject</label>
-              <input type="text" id="subject" required>
-            </div>
-
-            <div class="form-box">
-              <label for="message">Message</label>
-              <textarea name="message" id="message" required></textarea>
-            </div>
-            <input class="submit" type="submit" value="Submit">
-          </form>
-        </div>
       </div>
     </div>
-  </div>
 
-  <div id="footer">
-    <div class="container">
-      <div class="footer">
-        <ul class="footer-links">
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="about-us.html">About</a></li>
-          <li><a href="contact-us.html">Contact Us</a></li>
-        </ul>
-        <div class="social-links">
-          <a href="https://facebook.com/RupaDesignerLadiesItems" target="_blank"><i class="fab fa-facebook"></i></a>
-          <a href="https://instagram.com/RupaDesignerLadiesItems" target="_blank"><i class="fab fa-instagram"></i></a>
-          <a href="https://tiktok.com/@rupamainali2021" target="_blank"><i class="fab fa-tiktok"></i></a>
-          <a href="https://wa.me/+9779817079815" target="_blank"><i class="fab fa-whatsapp"></i></a>
-        </div>
-        <p class="footer-copyright">&copy; 2021 Rupa Designer Ladies Items. Made with <span>&#10084;</span> by <a
-            href="https://achyutchapagain.com.np" target="_blank">ABChapagain</a></p>
-      </div>
-    </div>
-  </div>
+    <!-- Messenger Chat plugin Code -->
+    <div id="fb-root"></div>
 
+    <!-- Your Chat plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat"></div>
 
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
 
-  <!-- Messenger Chat plugin Code -->
-  <div id="fb-root"></div>
-
-  <!-- Your Chat plugin code -->
-  <div id="fb-customer-chat" class="fb-customerchat">
-  </div>
-
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <script src="js/main.js"></script>
-</body>
-
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
