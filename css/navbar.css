@@ -57,6 +57,7 @@
     color: var(--dark-color);
 }
 
+.main-nav .nav-links li a.active,
 .main-nav .nav-links li a:hover {
     color: var(--primary-color);
 }
