@@ -19,7 +19,7 @@
 }
 
 .feature-brief {
-    color: #6366F1;
+    color: var(--primary-color);
     text-transform: uppercase;
     font-weight: 700;
 }

@@ -1,9 +1,8 @@
 .carousel {
-    /* background: url(/img/cover.jpg) no-repeat left center/cover; */
-    /* height: 75vh; */
     width: 100%;
     object-position: 0;
     object-fit: cover;
+    box-shadow: 0 3px 1rem rgba(0,0,0,.1);
 }
 
 @media screen and (max-width: 768px) {

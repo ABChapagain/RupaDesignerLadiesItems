@@ -3,7 +3,7 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     text-align: center;
-    background: #fff;
+    background: var(--white-color);
 }
 
 #footer .container {
@@ -16,7 +16,7 @@
 }
 
 #footer a:hover {
-    color: #6366F1 !important;
+    color: var(--primary-color) !important;
 }
 
 .footer {
@@ -43,9 +43,9 @@
 
 .footer-copyright a {
     font-weight: 500;
-    color: #6366F1 !important;
+    color: var(--primary-color) !important;
 }
 
 #footer .footer-copyright a:hover {
-    color: #4E50BE !important;
+    color: var(--secondary-color) !important;
 }
