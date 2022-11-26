@@ -1,4 +1,4 @@
-var slideIndex = 1;
+let slideIndex = 1;
 showSlides(slideIndex);
 
 // Next/previous controls
@@ -12,8 +12,8 @@ function currentSlide(n) {
 }
 
 function showSlides(n) {
-    var i;
-    var slides = document.getElementsByClassName("our-team");
+    let i;
+    let slides = document.getElementsByClassName("our-team");
     if (n > slides.length) {
         slideIndex = 1
     }
